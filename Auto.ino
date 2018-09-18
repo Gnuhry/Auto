@@ -97,7 +97,7 @@ void InfrarotAbfrage(){
       Serial.println(res.value,DEC);
       switch(help){ //Abhängig vom Befehl
         case 16718055:Serial.println("Vorwärts");Richtung=1; break; //Taste 2 -> Vorwärts
-        case 16730805:Serial.println("Rückwärts");Richtung=-1;analogWrite(RuckfahrLicht,255); break //Taste 8 -> Rückwärts und Rückwärtslicht an
+        case 16730805:Serial.println("Rückwärts");Richtung=-1;analogWrite(RuckfahrLicht,255); break; //Taste 8 -> Rückwärts und Rückwärtslicht an
         case 16726215:Serial.println("Stop");Richtung=0; analogWrite(Bremslicht,255); break; //Taste 5 -> stop und Bremslicht an
         case 16716015:Serial.println("Links");Richtung=2; break; //Taste 4 -> links
         case 16734885:Serial.println("Rechts");Richtung=3; break; //Taste 6 -> rechts
