@@ -1,3 +1,5 @@
+//Projekt der Projektwoche 2018 BSGG Groß-Gerau Arduino
+//Gruppenmitglieder: Max Jan Lorek, Darius René Czerny, Max Lukas Stolz und Xuan Hung Truong
 #include <IRremote.h> //Bibilothek für Infrarot Fernbedienung
 #include <Servo.h>    //Bibilothek für die Steuerung des Servo
 #include <Stepper.h>  //Bibilothek für die Steuerung des Schrittmotor
